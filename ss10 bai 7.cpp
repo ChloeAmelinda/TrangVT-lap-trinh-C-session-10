@@ -22,7 +22,7 @@ int main()
         for (int j = 0; j < m - 1; j++) {
             for (int k = j + 1; k < m; k++) {
                 if (arr[i][j] > arr[i][k]) {
-                    // Hoán d?i
+                    
                     int temp = arr[i][j];
                     arr[i][j] = arr[i][k];
                     arr[i][k] = temp;
@@ -31,13 +31,13 @@ int main()
         }
     }
 
-    // In ra m?ng dã s?p x?p
-    printf("M?ng sau khi s?p x?p theo t?ng dòng là:\n");
+    
+    printf("Mang sau khi sap xepla :\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             printf("%d\t", arr[i][j]);
         }
-        printf("\n"); // Xu?ng dòng sau m?i dòng
+        printf("\n"); 
     }
 
 	return 0;
